@@ -1,71 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-home.css">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Aprenda Front End | </title>
-
-    <style>
-        .attribution { font-size: 11px; text-align: center; }
-        .attribution a { color: hsl(228, 45%, 44%); }
-      </style>
-      
+    <title>Aprenda a programar AO VIVO |</title>
 </head>
-<body class="bg">
-    <main>
-        
-   
-    <div class="caixa-principal">
+    <body>
+        <main>
+            <div class="caixa-texto-principal">
+            <h1 class="texto-principal"> 
+                Aprenda a programar assistindo de codando AO VIVO !
+            </h1>
+            <p class="texto-secundario">
+                Veja como desenvolvedores mais experientes atuam em tempo real. Assistir videos e cursos online é essencial, mas isso <strong>NÃO TEM PREÇO !</strong>
+            </p>
+            </div>
+            
+            
+            <div class="caixa-banner">
+                <div class="banner-formulario">
+                    Teste gratis por 3 dias
+                    <span class="banner-opacidade">39,99$ após o teste</span>                
+            </div>
 
-        <h1 class="texto-principal">Aprenda a codar com outros Desenvolvedores ! </h1> 
+            <form action="#" class="caixa-formulario">
+                <div class="controle-formulario">
+                    
+                    <input type="text" name="primeiroNome" id="primeiroNome" autocomplete="off" placeholder="Primeiro Nome" class="primeiro-nome" required>
+                </div>
 
-        <p>Veja como desenvolvedores experientes atuam na prática em tempo real. Assistir cursos e vídeos online é necessário, até para o mais experiente, mas entender como a mente de um desenvolvedor está trabalhando em ação real,<strong> não tem preço !</strong>
-        </strong></p> 
-    </div>
+                <div class="controle-formulario">
+                    <input type="text" name="sobrenome" id="sobrenome" autocomplete="off" placeholder="Sobrenome Nome" class="sobrenome" required>
+                </div>
 
-    <div class="caixa-informações">
-     <div class="banner"> </div>   
-        Use esse acesso gratis por 3 dias, se gostar, o acesso mensal é por apenas 39,99/mês.
+                <div class="controle-formulario">
+                    <input type="text" name="Email" id="Email" autocomplete="off" placeholder="Email" class="email" required>
+                </div>
 
-    <form action="#" class="dados-cliente">
+                <div class="controle-formulario">
+                    <input type="text" name="Senha" id="Senha" autocomplete="off" placeholder="Senha" class="senha" required>
+                </div>
 
-       <label for="nome">Nome</label> 
-        <input type="text" id="nome" required placeholder="Primeiro Nome">
+                <button type="submit" class="botao-principal">
+                    RESGATE GRATUITO 
+                </button>
 
-        <label for="sobrenome">Sobrenome</label>
-        <input type="text" id="sobrenome" required placeholder="Sobrenome Completo">
+                <p class="botao-abaixo">
+                    Clicando no botão, você está aceitando nossos <a href="#" class="termos">Terms and Services</a>
+                </p>
 
-        <label for="email">Email válido</label>
-        <input type="text" id="email" required placeholder="seu-email@email.com">
-
-        <label for="senha">Senha</label>
-        <input type="text" id="senha" required placeholder="No mínimo 8 caractéres">
- 
-        <button type="submit" class="botão-resgate">
-            ENTRADA GRATUITA
-          </button>
-
-    </form>
-
-    
-
-    Resgate já seu acessso gratuito !
-
-    <p>Ao clicar no botão, você concorda com nossos <strong class="termos-serviços">Termos e Serviços.</strong> </p> 
+            </form>
 
 
-        <footer>
-
-        <p class="atribuiçoes">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/grbrown9">Gabriel Rodrigues</a>.
-        </p>
-        </footer>
-    </main>
-</body>
+        </main>
+    </body>
 </html>
